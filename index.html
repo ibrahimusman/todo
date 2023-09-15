@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <h1>My Todos</h1>
+        <div class="takevalue">
+          <input type="text" id="taskInput" placeholder="Add a task" />
+          <button id="saveButton">Save</button>
+        </div>
+        <div class="divider"></div>
+        <table id="taskTable">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Task</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Task rows will be added here -->
+          </tbody>
+        </table>
+      </div>
+    </div>  
+    <script src="todo.js"></script>
+  </body>
+</html>
